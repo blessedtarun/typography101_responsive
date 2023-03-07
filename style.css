@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #4a4e51;
+  font-family: "Pacifico", cursive;
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+body p {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-primary {
+  width: 100px;
+  height: 40px;
+  background-color: #e3d2b8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+/* NAVBAR */
+nav {
+  height: 10vh;
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  margin: 0 20px;
+}
+
+.menu a {
+  margin: 0 15px;
+}
+
+/* MAIN SECTION */
+.sec {
+  position: relative;
+  top: 10vh;
+  width: 80vw;
+  height: 60vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 5vw;
+  line-height: 8vw;
+  font-weight: 500;
+}
+
+.left-sec p {
+  margin: 20px 0;
+  font-size: 0.9vw;
+  width: 20vw;
+}
+
+.left-sec a {
+  margin: 50px 0;
+}
+
+hr {
+  width: 80vw;
+  margin: auto;
+  position: relative;
+  top: 30vh;
+}
+
+.shop {
+  width: 200px;
+  height: 100px;
+  font-size: 30px;
+}
+
+/* SECOND SECTION */
+.sec-2 {
+  margin-top: 30vh;
+  padding: 0 10vw;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.left p {
+  margin: 30px 0;
+  font-size: 16px;
+  width: 250px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  top: -70px;
+}
+
+.prod img {
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 50px;
+}
+
+.prod {
+  display: flex;
+  align-items: center;
+}
+
+.hr {
+  width: 2px;
+  height: 70%;
+  background-color: grey;
+  border-radius: 5px;
+}
