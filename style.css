@@ -127,3 +127,129 @@ h3 {
   background-color: grey;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 1200px) {
+  .left-sec p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .right-sec img {
+    width: 40vw;
+  }
+
+  .left-sec p {
+    font-size: 0.8rem;
+  }
+
+  .btn-primary {
+    scale: 0.8;
+  }
+
+  .sec {
+    height: 40vh;
+  }
+
+  .left p {
+    font-size: 0.8rem;
+    width: 25vw;
+  }
+
+  .left h3 {
+    font-size: 1.7rem;
+  }
+
+  .prod img {
+    width: 8vw;
+  }
+
+  .prod p {
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+
+  .right {
+    left: 3vw;
+  }
+
+  .hr {
+    position: relative;
+    left: 5vw;
+    height: 90%;
+    margin-bottom: 500px;
+  }
+
+  .left .btn-primary {
+    scale: 1.2;
+  }
+
+  .sec-2 {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .menu {
+    display: none;
+  }
+
+  .sec {
+    width: 90vw;
+  }
+
+  .left-sec h2 {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+
+  .left-sec p {
+    width: 50vw;
+    font-size: 0.7rem;
+  }
+
+  .sec {
+    height: 15vh;
+    top: 5vw;
+  }
+
+  .left-sec .btn-primary {
+    margin: 0;
+    position: relative;
+    left: 15vw;
+  }
+
+  .sec-2 {
+    display: block;
+  }
+
+  .hr {
+    display: none;
+  }
+
+  .left {
+    position: relative;
+    /* top: -10vw; */
+  }
+
+  .left h3 {
+    font-size: 1.6rem;
+  }
+
+  .left p {
+    width: 70vw;
+    text-align: justify;
+  }
+
+  .right {
+    display: block;
+    position: relative;
+    top: 5vw;
+    width: 80vw;
+    left: -5vw;
+  }
+
+  .prod img {
+    width: 20vw;
+  }
+}
